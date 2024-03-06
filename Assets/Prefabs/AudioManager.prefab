@@ -1,0 +1,159 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6986852466076077701
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3850225283944689370}
+  - component: {fileID: 2849904549416316264}
+  - component: {fileID: 4484281655307413683}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3850225283944689370
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6986852466076077701}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2849904549416316264
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6986852466076077701}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4a439bb4df59b7c409d8c1decaed4ee3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxSounds: 20
+  masterMute: 0
+  masterVolume: 1
+  audioMixer: {fileID: 24100000, guid: 40e2884f3344b2e46b7d709567c2fe48, type: 2}
+  musicMute: 0
+  musicVolume: 1
+  musicMix: {fileID: -1413795500009600871, guid: 40e2884f3344b2e46b7d709567c2fe48,
+    type: 2}
+  playOnStart: 0
+  startingMusic: 
+  music:
+  - name: Welcome To The Forest
+    clips:
+    - {fileID: 8300000, guid: 8bfa880b06ceeab4ebe1b4c393f620ad, type: 3}
+    volumePercent: 0.6
+  - name: Tri Peak Mountains
+    clips:
+    - {fileID: 8300000, guid: 944de7eba87b9f247ac1826e8919f085, type: 3}
+    volumePercent: 0.6
+  - name: Serenade For The Sky
+    clips:
+    - {fileID: 8300000, guid: 0feb938e82eee034aac55db9ace62dbe, type: 3}
+    volumePercent: 0.6
+  - name: Water Keeps Flowing
+    clips:
+    - {fileID: 8300000, guid: 0421ba7ca690da947acc3f927c406dc8, type: 3}
+    volumePercent: 0.4
+  sfxMute: 0
+  sfxVolume: 1
+  sfxMix: {fileID: 1164407368917790334, guid: 40e2884f3344b2e46b7d709567c2fe48, type: 2}
+  sounds:
+  - name: Click
+    clips:
+    - {fileID: 8300000, guid: b2956ad0d01a72044b5b3342cad4543c, type: 3}
+    volumePercent: 1
+  - name: FragmentPickup
+    clips:
+    - {fileID: 8300000, guid: 88c50491e36f74d4eaaf3bb46ba6961b, type: 3}
+    - {fileID: 8300000, guid: 90f3315dd54a8544caae334474eb02ca, type: 3}
+    - {fileID: 8300000, guid: 682fec2af9bf03b4f837ae5e13a07dd6, type: 3}
+    volumePercent: 1
+  - name: FragmentSwap
+    clips:
+    - {fileID: 8300000, guid: 81c95544d9e00514e9ba5545ca78c305, type: 3}
+    - {fileID: 8300000, guid: f084c24e3a8cb154eb980de17e045232, type: 3}
+    volumePercent: 1
+  - name: LevelComplete
+    clips:
+    - {fileID: 8300000, guid: d78962e989a941140afcf8a2afc882eb, type: 3}
+    volumePercent: 1
+  - name: titleintro
+    clips:
+    - {fileID: 8300000, guid: 9615f98bfd48e8b4e81aa9471bba69a2, type: 3}
+    volumePercent: 0.6
+  - name: StarSuccess
+    clips:
+    - {fileID: 8300000, guid: 005d0661a25689244b53069aeec10bbd, type: 3}
+    volumePercent: 1
+  - name: StarFail
+    clips:
+    - {fileID: 8300000, guid: 883e49e2ec3c99f4585c7ebaa59702a1, type: 3}
+    volumePercent: 1
+  - name: StarAdded
+    clips:
+    - {fileID: 8300000, guid: 7235c2f12ef8ff4458b277e2714fd4dd, type: 3}
+    volumePercent: 1
+  - name: CloudTransition
+    clips:
+    - {fileID: 8300000, guid: c87109bfe30b2574f8b628d84d316882, type: 3}
+    volumePercent: 0.35
+  - name: TitleScreenTap
+    clips:
+    - {fileID: 8300000, guid: 9d5e0f6161591334398a7ef1b509ff98, type: 3}
+    volumePercent: 0.4
+  dialogueMute: 0
+  dialogueVolume: 1
+  dialogueMix: {fileID: -321397112277999116, guid: 40e2884f3344b2e46b7d709567c2fe48,
+    type: 2}
+  dialogue:
+  - name: DialogueTest
+    clips:
+    - {fileID: 8300000, guid: 9958d95881532de4480b8d3d9591529c, type: 3}
+    volumePercent: 1
+  ambianceMute: 0
+  ambianceVolume: 1
+  ambianceMix: {fileID: 1164407368917790334, guid: 40e2884f3344b2e46b7d709567c2fe48,
+    type: 2}
+  ambiance:
+  - name: AmbianceNight
+    clips:
+    - {fileID: 8300000, guid: 40880d5adba199548b428fca66e89a26, type: 3}
+    volumePercent: 0.4
+  - name: AmbianceDay
+    clips:
+    - {fileID: 8300000, guid: 62a3019df002fc546ab828cea6a20cca, type: 3}
+    volumePercent: 0.4
+  - name: AmbianceDay
+    clips:
+    - {fileID: 8300000, guid: 97fd10f293f77114284b593940919d22, type: 3}
+    volumePercent: 0.4
+--- !u!114 &4484281655307413683
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6986852466076077701}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8f10120bd6b17ea45bf838310b23f356, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

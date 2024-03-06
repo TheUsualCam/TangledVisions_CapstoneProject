@@ -1,0 +1,237 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 753da83da6730764e9e1e7e58198a10e, type: 3}
+  m_Name: Campaign_1Forest
+  m_EditorClassIdentifier: 
+  campaignName: Forest
+  currentVision: 4
+  visions:
+  - name: The Great Tree
+    seed: 3
+    image: {fileID: 21300000, guid: b5920846fe604f641b90c60c1f6b3fee, type: 3}
+    useSaturation: 0
+    previewDuration: 0
+    requiredStars: 0
+    targetTimeInSeconds: 40
+    bestTimeInSeconds: 0
+    bestNumberOfMoves: 0
+    targetNumberOfMoves: 15
+    starsToEarn: 000000
+    fragmentShapes: 0
+    rectangleColumns: 2
+    rectangleRows: 2
+    rectangleChanceToSplit: 0.2
+    minWorldSize: 3
+    minPercentSize: 0.4
+    maxPercentSize: 0.6
+    randomizePoints: 0
+    vertices: []
+    minVertexDistanceFromBounds: 0
+    vertexRadius: 0
+    debugVertices: 0
+  - name: Steps of the River
+    seed: 2038169543
+    image: {fileID: 21300000, guid: 4d5a84a617a202b4986a092907f1a2e0, type: 3}
+    useSaturation: 0
+    previewDuration: 0
+    requiredStars: 1
+    targetTimeInSeconds: 60
+    bestTimeInSeconds: 0
+    bestNumberOfMoves: 0
+    targetNumberOfMoves: 15
+    starsToEarn: 000000
+    fragmentShapes: 0
+    rectangleColumns: 2
+    rectangleRows: 2
+    rectangleChanceToSplit: 0.5
+    minWorldSize: 3
+    minPercentSize: 0.2
+    maxPercentSize: 0.6
+    randomizePoints: 0
+    vertices: []
+    minVertexDistanceFromBounds: 0
+    vertexRadius: 0
+    debugVertices: 0
+  - name: Tri-Peak Mountains
+    seed: 214324
+    image: {fileID: 21300000, guid: 957fd207a8679404eb0721c50fc345b5, type: 3}
+    useSaturation: 0
+    previewDuration: 0
+    requiredStars: 3
+    targetTimeInSeconds: 120
+    bestTimeInSeconds: 0
+    bestNumberOfMoves: 0
+    targetNumberOfMoves: 40
+    starsToEarn: 000000
+    fragmentShapes: 0
+    rectangleColumns: 3
+    rectangleRows: 3
+    rectangleChanceToSplit: 0.1
+    minWorldSize: 4
+    minPercentSize: 0.2
+    maxPercentSize: 0.5
+    randomizePoints: 0
+    vertices: []
+    minVertexDistanceFromBounds: 0
+    vertexRadius: 0
+    debugVertices: 0
+  - name: A Bear's Home
+    seed: 2141242354
+    image: {fileID: 21300000, guid: 7dad59dd749c9c742aec31c214c26ad8, type: 3}
+    useSaturation: 0
+    previewDuration: 0
+    requiredStars: 5
+    targetTimeInSeconds: 120
+    bestTimeInSeconds: 0
+    bestNumberOfMoves: 0
+    targetNumberOfMoves: 35
+    starsToEarn: 000000
+    fragmentShapes: 0
+    rectangleColumns: 2
+    rectangleRows: 2
+    rectangleChanceToSplit: 0.8
+    minWorldSize: 3
+    minPercentSize: 0.2
+    maxPercentSize: 0.7
+    randomizePoints: 0
+    vertices: []
+    minVertexDistanceFromBounds: 0
+    vertexRadius: 0
+    debugVertices: 0
+  - name: Berry Bushes
+    seed: 2147483647
+    image: {fileID: 21300000, guid: bba3779543a8d9e499e07460dbd2fd86, type: 3}
+    useSaturation: 0
+    previewDuration: 0
+    requiredStars: 7
+    targetTimeInSeconds: 180
+    bestTimeInSeconds: 0
+    bestNumberOfMoves: 0
+    targetNumberOfMoves: 60
+    starsToEarn: 000000
+    fragmentShapes: 1
+    rectangleColumns: 0
+    rectangleRows: 0
+    rectangleChanceToSplit: 0
+    minWorldSize: 0
+    minPercentSize: 0
+    maxPercentSize: 0
+    randomizePoints: 0
+    vertices:
+    - {x: 6.5, y: 3.5}
+    minVertexDistanceFromBounds: 3
+    vertexRadius: 3
+    debugVertices: 0
+  - name: Giant's Footprint
+    seed: 12687657
+    image: {fileID: 21300000, guid: 0ffe1dc3ae7843c4091d121a706b4773, type: 3}
+    useSaturation: 0
+    previewDuration: 0
+    requiredStars: 10
+    targetTimeInSeconds: 240
+    bestTimeInSeconds: 0
+    bestNumberOfMoves: 0
+    targetNumberOfMoves: 60
+    starsToEarn: 000000
+    fragmentShapes: 0
+    rectangleColumns: 4
+    rectangleRows: 3
+    rectangleChanceToSplit: 0.3
+    minWorldSize: 5
+    minPercentSize: 0.2
+    maxPercentSize: 0.5
+    randomizePoints: 0
+    vertices: []
+    minVertexDistanceFromBounds: 0
+    vertexRadius: 0
+    debugVertices: 0
+  - name: Dreamy Waters
+    seed: 980678234
+    image: {fileID: 21300000, guid: 6a93dd1f17ce88345a531b5b4d118bbb, type: 3}
+    useSaturation: 0
+    previewDuration: 0
+    requiredStars: 12
+    targetTimeInSeconds: 270
+    bestTimeInSeconds: 0
+    bestNumberOfMoves: 0
+    targetNumberOfMoves: 75
+    starsToEarn: 000000
+    fragmentShapes: 1
+    rectangleColumns: 0
+    rectangleRows: 0
+    rectangleChanceToSplit: 0
+    minWorldSize: 0
+    minPercentSize: 0
+    maxPercentSize: 0.5
+    randomizePoints: 1
+    vertices:
+    - {x: 14.620652, y: 8.301486}
+    - {x: 10.824981, y: 2.4792721}
+    minVertexDistanceFromBounds: 2
+    vertexRadius: 3
+    debugVertices: 0
+  - name: Flower Clearing
+    seed: 3429
+    image: {fileID: 21300000, guid: aa1247c122ced4f48b43b5f30fa88384, type: 3}
+    useSaturation: 0
+    previewDuration: 0
+    requiredStars: 14
+    targetTimeInSeconds: 150
+    bestTimeInSeconds: 0
+    bestNumberOfMoves: 0
+    targetNumberOfMoves: 35
+    starsToEarn: 000000
+    fragmentShapes: 0
+    rectangleColumns: 2
+    rectangleRows: 5
+    rectangleChanceToSplit: 0.9
+    minWorldSize: 5
+    minPercentSize: 0.2
+    maxPercentSize: 0.8
+    randomizePoints: 1
+    vertices:
+    - {x: 6.2946377, y: 6.0030785}
+    - {x: 11.671397, y: 6.8316345}
+    - {x: 15.669417, y: 3.5866053}
+    - {x: 3.4231248, y: 4.3827753}
+    - {x: 3.7886846, y: 7.650919}
+    - {x: 13.262193, y: 2.1163568}
+    minVertexDistanceFromBounds: 2
+    vertexRadius: 2
+    debugVertices: 0
+  - name: Castle in the Woods
+    seed: 53423435
+    image: {fileID: 21300000, guid: 27ca6443dee26c642aabdbe966fbc2c6, type: 3}
+    useSaturation: 0
+    previewDuration: 0
+    requiredStars: 17
+    targetTimeInSeconds: 300
+    bestTimeInSeconds: 0
+    bestNumberOfMoves: 0
+    targetNumberOfMoves: 80
+    starsToEarn: 000000
+    fragmentShapes: 1
+    rectangleColumns: 0
+    rectangleRows: 0
+    rectangleChanceToSplit: 0
+    minWorldSize: 0
+    minPercentSize: 0
+    maxPercentSize: 0
+    randomizePoints: 1
+    vertices:
+    - {x: 10.578201, y: 8.664413}
+    - {x: 12.04089, y: 5.711838}
+    - {x: 5.203798, y: 7.606567}
+    - {x: 5.203798, y: 7.606567}
+    minVertexDistanceFromBounds: 1.5
+    vertexRadius: 2
+    debugVertices: 0
